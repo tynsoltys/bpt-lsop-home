@@ -1,0 +1,82 @@
+/* ELEMENTS */
+ul {
+  list-style-type: none;
+}
+
+hr {
+  border: none;
+  box-shadow: none;
+  height: 1px;
+  width: 100%;
+  display: block;
+  background-color: var(--grey-light);
+}
+
+//ALERTS & BOXES
+
+.pop {
+  border: 1px solid var(--accent-gold-light);
+}
+
+.info {
+  background-color: var(--accent-blue-fade);
+  margin: 20px;
+  border-radius: 4px;
+  padding-bottom: 40px;
+}
+
+.course-details {
+  padding-bottom: 40px;
+  ul {
+    margin-bottom: 20px;
+  }
+  // border: 1px solid red;
+}
+
+.info-line {
+  width: 100%;
+  h3 {
+    color: var(--text-secondary);
+  }
+  color: var(--text-secondary);
+  ul {
+    text-align: center;
+    color: var(--brand-primary);
+    font-size: 1em;
+    width: 100%;
+    li {
+      margin-top: 10px;
+      color: var(--text-secondary);
+      background-color: var(--accent-blue-fade);
+      padding: 10px 20px;
+      padding-right: 10px;
+      border-radius: 4px;
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        // color: var(--brand-primary-medium);
+      }
+      &.pop {
+        border: 1px solid var(--accent-gold-light);
+        background-color: var(--accent-gold-fade);
+      }
+    }
+  }
+  @media (max-width: $bp-lg) {
+    font-size: 0.8em;
+  }
+  @media (max-width: $bp-md) {
+    font-size: 1em;
+    p {
+      width: 100%;
+    }
+    a {
+      margin: 10px auto;
+    }
+    justify-content: center;
+    align-items: center;
+  }
+}

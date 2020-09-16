@@ -1,0 +1,40 @@
+label {
+  text-transform: uppercase;
+  display: block;
+  margin-top: 10px;
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+input[type='email'],
+input[type='text'],
+textarea {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  position: relative;
+  top: 1px;
+  width: auto;
+  padding: 10px 15px;
+  border: 1px solid var(--accent-blue-light);
+}
+
+input[type='submit'] {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  font-size: 0.8em !important;
+  background-color: var(--brand-primary-medium);
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  width: auto;
+  cursor: pointer;
+  transition: all 0.2s;
+}

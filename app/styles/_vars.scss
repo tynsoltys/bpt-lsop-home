@@ -1,0 +1,45 @@
+:root {
+  --brand-primary: #092440;
+  --brand-primary-medium: #34526b;
+  --brand-primary-border: #34526b;
+  --brand-primary-light: #e6edf5;
+  --brand-secondary: #84abcc;
+  --brand-secondary-medium: #d5e2ed;
+  --brand-secondary-light: #cad2d9;
+  --brand-black: #212121;
+  --brand-white: #ffffff;
+  // --accent-blue: #3584d9;
+  // --accent-blue-light: #399fe7;
+  --accent-blue: #84abcc;
+  --accent-blue-light: #628099;
+  --accent-blue-fade: rgba(131, 171, 204, 0.2);
+  --accent-gold-dark: ;
+  --accent-gold: #f5a623;
+  --accent-gold-light: #ffc76a;
+  --accent-gold-fade: rgba(245, 166, 35, 0.1);
+  --accent-red: #cc3b3b;
+  --accent-green: #40863f;
+  --text-primary: #212121;
+  --text-secondary: #3b4249;
+  --gray-dark: #757575;
+  --grey-medium: #bdbdbd;
+  --grey-light: #f4f6f8;
+  --background-main: #f7f8fa;
+  --background-info: #e6edf5;
+  --background-section: #ffffff;
+  --page-width: 1300px;
+  --space: 10px;
+  --shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.1);
+}
+
+// SASS VARS
+$bp-xl: 1100px;
+$bp-lg: 900px;
+$bp-md: 700px;
+$bp-sm: 500px;
+$bp-xs: 420px;
+$bp-xxs: 300px;
+
+* {
+  box-sizing: border-box;
+}

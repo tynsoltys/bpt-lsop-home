@@ -1,0 +1,69 @@
+/* TYPOGRAPHY */
+
+a {
+  color: var(--accent-blue-light);
+  i {
+    text-decoration: none;
+  }
+}
+
+a:hover {
+  color: var(--accent-blue);
+  text-decoration: underline;
+
+  i {
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: var(--brand-primary);
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 1.4em;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  // margin-left: 10px;
+  // margin-right: 10px;
+  letter-spacing: 1px;
+}
+
+.subtle {
+  opacity: 0.6;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.side-bar-help {
+  margin-left: var(--space);
+  font-size: 0.8em;
+  font-style: italic;
+}

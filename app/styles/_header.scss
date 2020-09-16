@@ -1,0 +1,121 @@
+header.top-header {
+  width: 100%;
+  flex: 1 0 100%;
+  background-color: #f7f8fa;
+  // background-color: #fff;
+  position: fixed;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  // box-shadow: 0 1.2rem 1 rem #f7f8fa;
+  box-shadow: var(--shadow);
+}
+
+.top-nav {
+  max-width: var(--page-width);
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: calc(1 * var(--space)) calc(3 * var(--space));
+  @media (max-width: $bp-xl) {
+    max-width: $bp-xl;
+    padding: calc(1 * var(--space)) calc(1 * var(--space));
+  }
+  @media (max-width: $bp-md) {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    .logo {
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      overflow: hidden;
+      margin-left: 10px;
+      margin-top: 5px;
+      img {
+        height: 40px;
+      }
+    }
+    .top-nav-right {
+      width: auto;
+    }
+  }
+}
+
+.top-nav-right,
+.top-nav-left {
+  width: 50%;
+}
+
+.top-nav-right {
+  text-align: right;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  @media (max-width: $bp-md) {
+    margin-right: 10px;
+    .contact-links p {
+      display: inline-block;
+    }
+  }
+}
+
+.contact-links {
+  font-size: 0.7em;
+  margin-right: 10px;
+  p a {
+    color: var(--gray-dark);
+    &:hover {
+      color: var(--text-secondary);
+      text-decoration: none;
+    }
+  }
+  i {
+    margin-left: 7px;
+  }
+  @media (max-width: $bp-md) {
+    margin-right: 0px;
+    a {
+      span {
+        display: none;
+      }
+      display: inline-block;
+      background-color: var(--brand-primary-medium);
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      margin-left: var(--space);
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: var(--shadow);
+      transition: all 0.3s;
+      text-align: center;
+      i {
+        color: white;
+        font-size: 1.1em;
+        position: relative;
+        left: -3px;
+      }
+    }
+  }
+}
+
+.logo img {
+  max-width: 300px;
+  text-align-last: left;
+}
+
+.contact-links p a.membership-home-link {
+  display: inline-block;
+  color: var(--brand-secondary);
+  text-transform: uppercase;
+  font-size: 1.1em;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  &:hover {
+    color: var(--accent-blue);
+  }
+}

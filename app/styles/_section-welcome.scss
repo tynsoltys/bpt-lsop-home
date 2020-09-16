@@ -1,0 +1,70 @@
+.welcome {
+  font-size: 1em;
+  position: relative;
+  h2 {
+    font-size: 1.6em;
+    color: var(--accent-blue-light);
+    line-height: 1em;
+    @media (max-width: 1000px) {
+      font-size: 1.4em;
+    }
+  }
+  i {
+    font-size: 0.8em;
+    line-height: 1.8em;
+    margin-right: var(--space);
+  }
+  .img-container {
+    width: 50%;
+    img {
+      margin-top: -70px;
+      padding-right: 30px;
+      // border: 1px solid purple;
+    }
+  }
+  .welcome-info {
+    width: 50%;
+    // border: 1px solid red;
+    @media (min-width: $bp-xl) {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 1000px) {
+    .welcome-info {
+      width: 100%;
+      margin-right: 60px;
+    }
+    .img-container {
+      display: none;
+      align-items: flex-start;
+      bottom: 15%;
+      position: absolute;
+      width: 50%;
+      right: 0;
+    }
+    img.map {
+      opacity: 0.1;
+    }
+  }
+  @media (max-width: $bp-md) {
+    h2 {
+      font-size: 1.1em;
+    }
+    .welcome-info ul {
+      margin-left: 0;
+    }
+    .button-set a {
+      width: 100%;
+    }
+  }
+}
+
+ul.materials-list {
+  font-size: 0.9em;
+  line-height: 1.8em;
+  margin: var(--space);
+  // margin-top: 30px;
+  margin-left: 40px;
+  font-style: italic;
+}
