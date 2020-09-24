@@ -46,10 +46,29 @@
 }
 
 .btn-subtle {
-  background-color: var(--accent-gold);
+  border: 1px solid var(--gray-dark);
+  color: var(--gray-dark);
+  i {
+    color: var(--gray-dark);
+  }
 }
 
 .btn-outline {
+  background-color: #ffffff;
+  border: 1px solid var(--accent-blue-light);
+  color: var(--accent-blue-light);
+  transition: all 0.3s;
+  &:hover {
+    opacity: 0.9;
+
+      color: var(--brand-secondary);
+      i {
+        color: var(--brand-secondary);
+      }
+  }
+  i {
+    color: var(--accent-blue-light);
+  }
 }
 
 .btn-small {

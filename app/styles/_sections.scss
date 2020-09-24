@@ -27,7 +27,7 @@ section {
 section h2 {
   color: var(--brand-primary-medium);
   padding-bottom: var(--space);
-  border-bottom: 1px solid var(--grey-light);
+  border-bottom: 1px solid var(--gray-light);
   margin-bottom: calc(2 * var(--space));
   @media (max-width: $bp-md) {
     font-size: 1.1em;
@@ -40,6 +40,10 @@ section h2 {
 @import 'section-tutorials';
 @import 'section-further-study';
 @import 'section-materials';
+@import 'section-trade-updates';
+@import 'section-master-programs';
+@import 'section-social-feeds';
+@import 'section-daily-analytics';
 
 .topic-request {
   // border: 1px solid red;

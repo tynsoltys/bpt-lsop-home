@@ -1,0 +1,120 @@
+.trade-updates-container {
+    padding: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    div {
+        flex: 1 0 300px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        padding: 25px;
+        box-shadow: var(--shadow);
+        border-radius: 8px;
+    }
+    h3 {
+        line-height: 1rem;
+        // padding-top: 2px;
+        margin-bottom: 20px;
+    }
+    .trade-meta {
+    display: inline-block;
+        height: 1.3em;
+        margin: 4px 0px;
+        .date {
+            color: rgba(black,0.6);
+            font-size: 1;
+            margin-left: 5px;
+            margin-right: 10px;
+        }
+    }
+    p {
+        display: inline-block;
+        font-size: 0.9em;
+    }
+    .trade-list {
+        font-size: 1em;
+        li {
+            padding-bottom: 4px;
+            margin-bottom: 4px;
+            p{
+                padding: 4px;
+                line-height: 1.2em;
+
+            }
+        }
+    }
+    
+}
+
+.bot {
+    h3 {
+     color: var(--accent-blue);
+    }
+}
+
+.heg {
+ h3 {
+     color: var(--accent-red);
+ }
+}
+
+.lto {
+    h3 {
+        color: var(--gray-dark);
+    }
+}
+
+.ofi {
+    h3 {
+        color: var(--accent-gold);
+    }
+}
+
+.trade-pill {
+    font-weight: bold;
+    background-color: #efefef;
+    font-size: 0.8em;
+    line-height: 1.3em;
+    padding: 2px 6px;
+    border-radius: calc(1em);
+    font-style: normal;
+    border:1px solid var(--gray-medium);
+    padding-left: 9px;
+    display: inline-block;
+    margin-right: 5px;
+    &.bot {
+        color: var(--accent-blue);
+        background-color:var(--accent-blue-fade);
+        border:1px solid var(--accent-blue);
+    }
+    &.heg {
+        color: var(--accent-red);
+        background-color:var(--gray-light);
+        border:1px solid var(--accent-red);
+    }
+    &.lto {
+        color: var(--gray-dark);
+        background-color:var(--gray-light);
+        border:1px solid var(--gray-dark);
+        padding-left: 10px;
+    }
+    &.ofi {
+        color: var(--accent-gold);
+        background-color:var(--accent-gold-fade);
+        border:1px solid var(--accent-gold);
+
+    }
+}
+
+.more-trades {
+    font-size: 0.8em;
+    text-align: right;
+    font-style: italic;
+    text-decoration: underline;
+    width: 100%;
+    display: inline-block;
+
+
+}
