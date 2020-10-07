@@ -63,3 +63,46 @@ body {
   width: 75%;
   margin-left: 25%;
 }
+
+
+.no-sidenav {
+  .side-nav {
+    display: none;
+  }
+
+  .site-container {
+
+  }
+
+  .content-container {
+    margin-left: 0;
+  }
+}
+
+.right-sidenav {
+  .right-side-nav {
+    display: block;
+  }
+
+  .site-container {
+
+  }
+
+  .content-container {
+    
+  }
+}
+
+.skinny-sidenav {
+  .side-nav {
+    display: block;
+  }
+
+  .site-container {
+
+  }
+
+  .content-container {
+    
+  }
+}

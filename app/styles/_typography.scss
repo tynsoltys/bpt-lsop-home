@@ -1,14 +1,14 @@
 /* TYPOGRAPHY */
 
 a {
-  color: var(--accent-blue-light);
+  color: var(--brand-secondary-toned);
   i {
     text-decoration: none;
   }
 }
 
 a:hover {
-  color: var(--accent-blue);
+  color: var(--brand-secondary);
   text-decoration: underline;
 
   i {
@@ -97,4 +97,16 @@ h4 {
 
 .trade-hed {
 
+}
+
+.text-accent {
+  color: var(--accent-blue);
+}
+
+.text-secondary {
+  color: var(--brand-secondary);
+}
+
+.text-primary {
+  color: var(--brand-primary-medium);
 }

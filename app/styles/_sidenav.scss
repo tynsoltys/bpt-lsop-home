@@ -15,16 +15,18 @@ aside {
 .side-nav {
   list-style-type: none;
   margin-left: calc(var(--space) * 1);
-  background-color: var(--background-main);;
+  // background-color: var(--background-main);
   @media (max-width: $bp-md) {
     margin-left: 20px;
     margin-right: 20px;
+
   }
   // width: 100%;
   border-radius: 8px;
-
+  p.today {display: none;}
   ul {
     // border:1px solid red;
+
     margin-bottom: 20px;
     li {
       margin-bottom: calc(var(--space) * 2);
@@ -57,10 +59,10 @@ aside {
   h4 {
     color: var(--brand-primary-medium);
   }
-  // color: var(--accent-blue-light) !important;
+  // color: var(--brand-secondary-toned) !important;
   &:hover {
     color: var(--brand-primary);
-    // color: var(--accent-blue-light);
+    // color: var(--brand-secondary-toned);
     transform: scale(1.02);
     .side-link-icon {
       background-color: var(--brand-primary);
@@ -101,13 +103,34 @@ aside {
 aside {
   @media (max-width: $bp-xl) {
     padding: calc(1 * var(--space));
+    // border:1px solid red;
+  }
+  @media (max-width: $bp-lg) {
+    // border:1px solid red;
+    p.today {
+      display: none;
+    }
+    max-width: 60px;
+    margin-left: 20px;
+    &.side-nav{
+      padding: 0;
+    }
+    ul {
+      .side-link-icon {
+        margin-right: 0;
+        margin-left: 15px;
+      }
+      li {padding: 0;}
+
+    }
   }
   @media (max-width: $bp-md) {
+    // border:1px solid blue;
     position: fixed;
     bottom: 0px;
     left: 0;
     right: 0;
-    max-width: 100%;
+
     background-color: var(--background-main);
     ul {
       display: flex;

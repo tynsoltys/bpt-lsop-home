@@ -1,8 +1,8 @@
 .daily-analytics {
-    margin-top: 20px;
+    // margin-top: 20px;
     display: flex;
     flex-flow: row wrap;
-    padding: 25px;
+    // padding: 25px;
     h2 {
         width: 100%;
     }
@@ -10,16 +10,49 @@
         font-size: 0.8em;
         text-transform: uppercase;
     }
-
     .outlook-container, .witt-container {
 
+        // box-shadow: var(--shadow);
+
+        flex: 1 0 auto;
     }
     .outlook-container {
+        padding: 20px 25px;
+        border-radius:8px;
+        background-color: #fff;
         width:calc(60%);
         margin-right: 20px;
+        box-shadow: var(--shadow-sm);
+        
     }
     .witt-container {
+        padding: 25px;
+        border-radius:8px;
+        background-color: #fff;
         text-align: center;
+        border: 1px solid var(--accent-gold);
+        box-shadow: var(--shadow-sm);
+
+    }
+
+    .summary-container {
+        width: 100%;
+        margin-top: 20px;
+        a {
+            display: block;
+            padding: 10px 15px;
+            border-radius: 8px;
+            background-color: var(--accent-blue-light);
+            text-align: center;
+            // text-decoration: underline;
+            letter-spacing: 1px;
+            font-weight: lighter;
+            font-style: italic;
+            // color: #fff;
+            color: var(--accent-blue);
+            border:1px solid var(--accent-blue)
+        }
+        
     }
     section {
         margin: 0;
@@ -45,7 +78,7 @@
 }
 
 .witt-container {
-    // background-color: var(--brand-primary-light);
+
     border-radius: 8px;
 }
 
@@ -57,12 +90,19 @@
 }
 
 .webinar-live {
-    color: var(--accent-blue);
+    color: var(--brand-secondary);
     text-transform: uppercase;
     font-size: 0.9em;
     letter-spacing: 2px;
     font-weight: bold;
 }
+
+.macro-title {
+font-size: 1.4em; 
+ i{ font-size: 0.9em}
+
+}
+
 
 .witt-title {
     text-transform: none;

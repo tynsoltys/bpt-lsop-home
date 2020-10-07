@@ -14,7 +14,7 @@
   li {
     padding: 20px;
     background-color: var(--accent-blue-fade);
-    // border: 1px solid var(--accent-blue-light);
+    // border: 1px solid var(--brand-secondary-toned);
     border-radius: 4px;
     flex: 1 0 250px;
     // width: calc(33% - 20px);
@@ -75,10 +75,10 @@
           // display: none;
           margin-left: 10px;
         }
-        // border: 1px solid var(--accent-blue-light);
+        // border: 1px solid var(--brand-secondary-toned);
         background-color: var(--accent-blue-fade);
         border: none;
-        background-color: var(--accent-blue-light);
+        background-color: var(--brand-secondary-toned);
         color: white;
         height: 30px;
         line-height: 28px;

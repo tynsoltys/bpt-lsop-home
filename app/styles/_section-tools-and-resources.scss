@@ -1,0 +1,91 @@
+.tools-container {
+    ul.tile-list {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: -10px;
+        li {
+            flex: 1 0 auto;
+            margin: 10px;
+            width: 40%;
+            a{
+                display: inline-block;
+                width: 100%;
+                color:white;
+                padding: 10px 20px;
+                border-radius: 8px;
+                letter-spacing: 1px;
+                box-shadow: var(--shadow-sm);
+                background-color: var(--brand-primary-medium);
+                opacity:0.9;
+                &:hover {
+                    text-decoration: none;
+                    opacity:1;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+.resources-layout {
+    display: flex;
+    flex-flow: row wrap;
+
+    .resources-container, .twitter-container {
+        width: 50%;
+        flex: 1 0 300px;
+        // border:1px solid green;
+    }
+}
+
+.resources-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    ul.tile-list {
+
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        margin-left: -10px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        li {
+            flex: 1 0 auto;
+            margin: 10px;
+            width: 100%;
+            a{
+                display: inline-block;
+                width: 100%;
+                color:white;
+                padding: 10px 20px;
+                border-radius: 8px;
+                letter-spacing: 1px;
+                box-shadow: var(--shadow-sm);
+                background-color: var(--brand-primary-medium);
+                opacity:0.9;
+                &:hover {
+                    text-decoration: none;
+                    opacity:1;
+                }
+                &.bonus-content {
+                    padding: 20px 20px;
+                    background-color: var(--accent-blue);
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }
+
+}

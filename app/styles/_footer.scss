@@ -20,6 +20,7 @@ footer {
   padding-left: 600px;
   display: flex;
   flex-flow: row wrap;
+  text-align: right;
   .footer-left{
     width: 50%;
   }
@@ -30,6 +31,9 @@ footer {
     width: 50%;
     text-align: right;
     padding-bottom: 40px;
+  }
+  img {
+    float: right;
   }
 }
 
@@ -87,7 +91,7 @@ footer {
   font-style: italic;
   font-size: 1.2em;
   a {
-    color: var(--accent-blue-light);
+    color: var(--brand-secondary-toned);
 
 
   }

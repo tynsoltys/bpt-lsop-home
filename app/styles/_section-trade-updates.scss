@@ -1,17 +1,17 @@
 .trade-updates-container {
-    padding: 25px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-
     div {
         flex: 1 0 300px;
-        margin-right: 20px;
+        margin-right: 10px;
         margin-bottom: 20px;
         background-color: #fff;
         padding: 25px;
-        box-shadow: var(--shadow);
+        // box-shadow: var(--shadow);
+        box-shadow: var(--shadow-sm);
         border-radius: 8px;
+        flex: 1 0 auto;
     }
     h3 {
         line-height: 1rem;
@@ -117,4 +117,18 @@
     display: inline-block;
 
 
+}
+
+.master-intro {
+    p  {
+        font-size: 1.2em;
+    }
+}
+
+.master-intro-image {
+    display: flex;
+    justify-content: center;
+    img {
+        height: 150px;
+    }
 }

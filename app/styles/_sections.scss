@@ -2,12 +2,14 @@
 
 section {
   // border: 1px solid red;
-  background-color: #fff;
-  padding: calc(4 * var(--space));
-  padding-top: calc(2.5 * var(--space));
-  margin: calc(3 * var(--space));
-  border-radius: 8px;
-  box-shadow: var(--shadow);
+  // background-color: #fff;
+  padding: calc(2 * var(--space));
+  padding-top: calc(2 * var(--space));
+  padding-bottom: calc(5 * var(--space));
+  // margin: calc(3 * var(--space));
+  // border-radius: 8px;
+  // box-shadow: var(--shadow);
+  // min-height: 80vh;
   scroll-margin-top: 105px;
   scroll-padding: 105px;
   -webkit-scroll-margin-top: 105px;
@@ -25,10 +27,23 @@ section {
 }
 
 section h2 {
-  color: var(--brand-primary-medium);
+  color: var(--brand-primary);
+  // color: rgba(0,0,0,0.5);
   padding-bottom: var(--space);
-  border-bottom: 1px solid var(--gray-light);
-  margin-bottom: calc(2 * var(--space));
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  font-size: 1.5em;
+  font-weight: normal;
+  padding-left: 0;
+  margin:0 !important;
+  margin-bottom: calc(2 * var(--space)) !important;
+  display: flex;
+  align-items: center;
+  i {
+    font-size: 0.8em;
+    &.fa-analytics {
+      margin-top: 6px;
+    }
+  }
   @media (max-width: $bp-md) {
     font-size: 1.1em;
   }
@@ -44,6 +59,8 @@ section h2 {
 @import 'section-master-programs';
 @import 'section-social-feeds';
 @import 'section-daily-analytics';
+@import 'section-upcoming-events';
+@import 'section-tools-and-resources';
 
 .topic-request {
   // border: 1px solid red;

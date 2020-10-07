@@ -16,6 +16,8 @@
   width: auto;
   cursor: pointer;
   transition: all 0.2s;
+  box-shadow:var(--shadow-sm);
+  text-shadow: inset var(--shadow-sm);
 }
 
 .btn i {
@@ -29,9 +31,17 @@
   color: white;
 }
 
+.btn-secondary {
+  background-color: var(--brand-secondary-toned);
+  border: 1px solid var(--brand-secondary-toned);
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
 .btn-accent {
-  background-color: var(--accent-blue-light);
-  border: 1px solid var(--accent-blue-light);
+  background-color: var(--accent-blue);
+  border: 1px solid var(--accent-blue);
   &:hover {
     opacity: 0.8;
   }
@@ -55,8 +65,8 @@
 
 .btn-outline {
   background-color: #ffffff;
-  border: 1px solid var(--accent-blue-light);
-  color: var(--accent-blue-light);
+  border: 1px solid var(--brand-secondary-toned);
+  color: var(--brand-secondary-toned);
   transition: all 0.3s;
   &:hover {
     opacity: 0.9;
@@ -67,7 +77,7 @@
       }
   }
   i {
-    color: var(--accent-blue-light);
+    color: var(--brand-secondary-toned);
   }
 }
 
