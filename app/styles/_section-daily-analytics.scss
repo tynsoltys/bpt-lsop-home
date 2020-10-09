@@ -13,7 +13,7 @@
     .outlook-container, .witt-container {
 
         // box-shadow: var(--shadow);
-
+        margin: 10px;
         flex: 1 0 auto;
     }
     .outlook-container {
@@ -21,9 +21,15 @@
         border-radius:8px;
         background-color: #fff;
         width:calc(60%);
-        margin-right: 20px;
+        margin-left: -0px;
         box-shadow: var(--shadow-sm);
-        
+        .outlook-video {
+            iframe {
+                min-height:300px;
+            }
+    
+        }
+
     }
     .witt-container {
         padding: 25px;
@@ -32,12 +38,19 @@
         text-align: center;
         border: 1px solid var(--accent-gold);
         box-shadow: var(--shadow-sm);
-
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        .witt-header {
+            margin-top: 30px;
+        }
     }
 
     .summary-container {
+
         width: 100%;
-        margin-top: 20px;
+        margin: 10px;
+        margin-left: -0px;
         a {
             display: block;
             padding: 10px 15px;
@@ -73,7 +86,7 @@
 
 .witt-join {
     .btn {
-        transform: scale(1.5);
+        transform: scale(1.8);
     }
 }
 

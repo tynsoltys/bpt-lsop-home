@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Membership Home - Big Picture Trading</title>
     <meta name="description" content="Access to trading tools, daily market
-    analysis and mentorship from the entire Big Picture Team... Learn more...""
+    analysis and mentorship from the entire Big Picture Team... Learn more..."
     />
     <link
       rel="shortcut icon"
@@ -91,7 +91,7 @@
       Skip to content
     </a> -->
 <!-- HEADER/TOP NAV START-->   
-    <header class="top-header">
+    <header class="top-header lsop-header">
       <nav class="top-nav">
         <div class="top-nav-left">
           <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/?" class="logo">
@@ -99,6 +99,39 @@
               src="./app/images/logo-circle.png"
               alt="big picture trading logo"
           /></a>
+        </div>
+        <div class="hamburger">
+          
+          <input type="checkbox" name="menuCheck" class="menuCheck" id="">
+          <i class="fas fa-bars"></i>
+          <div class="mobile-menu">
+            <ul>
+              <li>
+                <a href="#daily-analytics">Daily Analytics</a>
+              </li>
+              <li>
+                <a href="#trade-updates">Trade Updates</a>
+              </li>
+              <li>
+                <a href="#master-programs">Master Programs</a>
+              </li>
+              <li>
+                <a href="#upcoming-events">Upcoming Events</a>
+              </li>
+              <li>
+                <a href="#tools">Tools</a>
+              </li>
+              <li>
+                <a href="#resources">Resources</a>
+              </li>
+              <li>
+                <a href="#twitter">Twitter Feed</a>
+              </li>
+              <li>
+                <a href="http://secure.bigpicturetrading.com/membership/profile">Account</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="top-nav-right">
@@ -112,13 +145,13 @@
               </a>
               <ul class="top-nav-secondary">
                 <li>
-                  <a href="">Macro Outlook</a>
+                  <a href="#daily-analytics">Macro Outlook</a>
                 </li>
                 <li>
-                  <a href="">Where is the Trade?</a>
+                  <a href="#daily-analytics">Where is the Trade?</a>
                 </li>
                 <li>
-                  <a href="">Recording Archive</a>
+                  <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/recording_archives.php">Recording Archive</a>
                 </li>
               </ul>
             </li>
@@ -177,6 +210,15 @@
                 <li>
                   <a href="https://secure.bigpicturetrading.com/option.simulator/position_simulator.php" target="_blank">Options Trading Simulator</a>
                 </li>
+                <li>
+                  <a href="https://bigpicturetrading.com/wp-content/uploads/2020/05/TrackingtheCalendarPutWrite.xlsx" target="_blank">Put Write Calendar Spreadsheet</a>
+                </li>
+                <li>
+                  <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/portfolio_strategies/calculators/calc1.html" target="_blank">Covered Call Calculator</a>
+                </li>
+                <li>
+                  <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/portfolio_strategies/calculators/calc2.html" target="_blank">Naked Put Calculator</a>
+                </li>
                 
               </ul>
             </li>
@@ -192,15 +234,15 @@
                   <a target="_blank" href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/memberseducation.php">Members Bonus Content</a>
                 </li>
                 <li>
-                  <a href="" target="_blank">MacroVoices</a>
+                  <a href="https://www.macrovoices.com/" target="_blank">MacroVoices</a>
                 </li>
                 <li>
-                  <a href="" target="_blank">MarketHuddle</a>
+                  <a href="https://markethuddle.com/" target="_blank">MarketHuddle</a>
                 </li>
               </ul>
             </li>
-            <li>
-              <a class="top-level-side-nav" href="#account">
+            <li class="top-menu-account-li">
+              <a class="top-level-side-nav top-menu-account-link" target="_blank" href="http://secure.bigpicturetrading.com/membership/profile">
                 <div class="side-link-icon">
                   <i class="fas fa-user"></i>
                 </div>
@@ -222,9 +264,10 @@
     </header>
 <!-- HEADER/TOP NAV END-->   
 <!-- SITE CONTAINER START-->    
-    <div class="site-container ">
+    <div class="site-container">
 <!-- SIDE NAVIGATION START-->
       <aside class="side-nav">
+        <!-- UPDATE: DATE (note that this is currently hidden) -->
         <p class="today">Wednesday, September 16, 2020</p>
         <ul>
           <li>
@@ -347,11 +390,11 @@
           </li>
           <li>
             <div class="side-link-container">
-              <a class="top-level-side-nav" href="#resources">
+              <a class="top-level-side-nav" href="#twitter">
                 <div class="side-link-icon">
                   <i class="fab fa-twitter"></i>
                 </div>
-                <h4>twitter</h4>
+                <h4>Twitter Feed</h4>
               </a>
               <!-- <ul>
                 <li>
@@ -375,7 +418,7 @@
       </aside>
 <!-- SIDE NAVIGATION END -->
 <!-- CONTENT BODY START-->
-      <div class="content-container">
+      <div class="content-container" id="main">
         <!-- DAILY ANALYTICS START -->
         <section class="daily-analytics" id="daily-analytics">
           <h2 class="section-title">
@@ -385,30 +428,39 @@
               <h3 class="macro-title text-accent"><i class="fas fa-globe mr-3"></i>Macro Outlook</h3>
               <p class="posted-time mb-8">Posted Monday-Friday ~9AM EST</p>
               <div class="outlook-video">
+                <!-- UPDATE: MACRO OUTLOOK VIMEO VIDEO ID -->
                 <iframe src="https://player.vimeo.com/video/458548112" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
                 <div class="outlook-links">
+                  <!-- UPDATE: YESTERDAY'S MACRO OUTLOOK VIMEO PAGE LINK OR HOSTED VIMEO VIDEO PAGE -->
                   <a href="https://secure.bigpicturetrading.com/membership/content/p/id/312/" target="_blank" class="w-1/3 text-left underline mt-4 inline-block italic"><i class="fal fa-angle-double-left"></i> Previous Video</a>
-                  <a href="" target="_blank" class="text-right underline mt-4 inline-block italic">Go to Archive...</a>
+                  <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/recording_archives.php" target="_blank" class="text-right underline mt-4 inline-block italic">Go to Archive...</a>
                 </div>
               </div>
             </div>
             <div class="witt-container" id="witt">
-              <p class="webinar-live">live webinar</p>
-              <h3 class="witt-title">Where is the Trade?</h3>
-              <p class="posted-time mb-8">Live Monday-Thursday 9:45AM EST</p>
+              <div class="witt-header">
+                <p class="webinar-live">live webinar</p>
+                <h3 class="witt-title">Where is the Trade?</h3>
+                <p class="posted-time mb-8">Live Monday-Thursday 9:45AM EST</p>
+              </div>
+
               <div class="witt-video mb-12 hidden">
                 <iframe src="https://player.vimeo.com/video/458603820" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
               </div>
               <div class="witt-join mb-12">
-                <button class="btn btn-bold mt-8 shadow">JOIN NOW</button>
+                <!-- UPDATE: WITT WHERE IS THE TRADE LINKS AND ALSO THE VISIBILITY STATUS -->
+                <!-- TODO: AUTOMATE THE BUTTON VISIBILITY -->
+                <a class="https://us02web.zoom.us/webinar/register/WN_zAgAMFT_QWi1h90BNXmL_Q" target="_blank" href=""><button class="btn btn-bold mt-8 shadow">JOIN NOW</button></a>
+                <a class="hidden" target="_blank" href=""><button class="btn btn-accent mt-8 shadow"><i class="fas fa-video"></i>WATCH</button></a>
               </div>
               <div class="witt-register mb-8">
-                <button class="btn btn-small btn-subtle btn-outline"><i class="fas fa-calendar-alt mr-3"></i>REGISTER</button>
+                <!-- UPDATE: WITT WHERE IS THE TRADE REGISTRATION LINK -->
+                <a class="https://us02web.zoom.us/webinar/register/WN_zAgAMFT_QWi1h90BNXmL_Q" target="_blank" href=""></a><button class="btn btn-small btn-subtle btn-outline"><i class="fas fa-calendar-alt mr-3"></i>REGISTER</button></a>
               </div>
-              <a href="" target="_blank" class="text-center underline mt-4 inline-block italic">Go to Archive...</a>
+              <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/recording_archives.php" target="_blank" class="text-center underline mt-4 inline-block italic">Go to Archive...</a>
             </div>
             <div class="summary-container">
-              <a class="summary-link" href=""><i class="fas fa-newspaper mr-2"></i> Download last week's <strong>Friday Position Summary</strong> and <strong>Weekly Overview</strong> here.</a>
+              <a class="summary-link" href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/recording_archives.php"><i class="fas fa-newspaper mr-2"></i> Download last week's <strong>Friday Position Summary</strong> and <strong>Week In Review</strong> here.</a>
             </div>
         </section>
         <!-- DAILY ANALYTICS END -->
@@ -434,7 +486,7 @@
                 <hr>
               </li>
             </ul>
-            <a href="" class="more-trades">More BreakOut Trades<i class="ml-1 fal fa-angle-double-right"></i></a>
+            <a target="_blank" href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/trading_strategies/breakouttradesetups.php" class="more-trades">More BreakOut Trades<i class="ml-1 fal fa-angle-double-right"></i></a>
           </div>
           <div class="heg dra">
             <h3 class="tb-2"><span class="trade-pill heg dra">HEG</span> Hedged Positions</h3>            <hr>
@@ -455,7 +507,7 @@
                 <hr>
               </li>
             </ul>
-            <a href="" class="more-trades">See Hedged Positions<i class="ml-1 fal fa-angle-double-right"></i></a>
+            <a target="_blank" href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/portfolio_strategies/hedged_position_alerts.php" class="more-trades">See Hedged Positions<i class="ml-1 fal fa-angle-double-right"></i></a>
           </div>
           <div class="lto">
             <h3 class="tb-2"><span class="trade-pill heg lto">LTO</span> Long Term Options</h3>            <hr>
@@ -476,7 +528,7 @@
                 <hr>
               </li>
             </ul>
-            <a href="" class="more-trades">More Long Term Options<i class="ml-1 fal fa-angle-double-right"></i></a>
+            <a target="_blank" href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/portfolio_strategies/LongtermOptionPositions.php" class="more-trades">More Long Term Options<i class="ml-1 fal fa-angle-double-right"></i></a>
           </div>
           <div class="ofi">
             <h3 class="mb-2"><span class="trade-pill heg ofi">OFI</span> Options for Income</h3>            <hr>
@@ -497,7 +549,7 @@
                 <hr>
               </li>
             </ul>
-            <a href="" class="more-trades">More Options for Income<i class="ml-1 fal fa-angle-double-right"></i></a>
+            <a target="_blank" href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/portfolio_strategies/options_for_income_alerts.php" class="more-trades">More Options for Income<i class="ml-1 fal fa-angle-double-right"></i></a>
           </div>
         </section>
         <!-- TRADE UPDATES END -->
@@ -507,6 +559,7 @@
           <div class="master-programs-container">
             <div class="master-intro flex">
               <p class="w-3/5">In <strong>Big Picture Trading's</strong> flagship Master Programs, Patrick guides you from macro fundamentals to advanced options & trading strategies employed in his own trades.
+                <!-- TODO: WHERE DOES THIS LINK UNTIL WE HAVE THE DISCOVERY CALL THING SET UP -->
                 <br/><a href="" class="mt-8 block btn btn-accent"><i class="fas fa-search-dollar mr-3"></i>book a discovery call</a>
               <div class="w-2/5 text-md"><img src="./app/images/undraw_active_options_8je6.svg" alt="man looking at screen"></div>
             </div>
@@ -519,19 +572,19 @@
                 </a>
               </li>
               <li class="">
-                <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/macro_fundamentals/" target="_blank">
+                <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/Technical_Masters/" target="_blank">
                   <h3><i class="fas fa-chart-bar mr-3"></i>TECHNICAL MASTER</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero tempore eaque repellendus? Doloribus architecto optio veniam quod eveniet obcaecati? Ipsum similique error atque non aut voluptatem vitae earum culpa?</p>
                 </a>
               </li>
               <li class="">
-                <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/macro_fundamentals/" target="_blank">
+                <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/learntotradeglobal.options_week/" target="_blank">
                   <h3><i class="fas fa-exchange-alt mr-3"></i>OPTIONS MASTER</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero tempore eaque repellendus? Doloribus architecto optio veniam quod eveniet obcaecati? Ipsum similique error atque non aut voluptatem vitae earum culpa?</p>
                 </a>
               </li>
               <li class="">
-                <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/macro_fundamentals/" target="_blank">
+                <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/trading-program.html" target="_blank">
                   <h3><i class="fas fa-handshake mr-3"></i>TRADING MASTER</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero tempore eaque repellendus? Doloribus architecto optio veniam quod eveniet obcaecati? Ipsum similique error atque non aut voluptatem vitae earum culpa?</p>
                 </a>
@@ -544,48 +597,46 @@
         </section>
         <!-- MASTER PROGRAMS END -->
         <!-- UPCOMING EVENTS START -->   
+        <!-- UPDATE EVENTS HERE -->   
         <section id="upcoming-events" class="upcoming-events-container flex flex-row flex-wrap">
           <h2 class="section-title"><i class="fas fa-calendar-alt mr-3"></i>UPCOMING EVENTS</h2>
               <ul class="">
+                <!-- EACH li is an event -->   
                 <li class="">
                   <div class="icon-container">
-                    <i class="fas fa-island-tropical"></i>
+                    <i class="fas fa-question-circle"></i>
+                  </div>
+                  <div class="info-container">
+                    <h4 class="event-title">EXCLUSIVE Master Members LIVE Q&A</h4>
+                    <p class="tutorial-date mb-4 mt-2">Friday, October 09, 2020 at 9:45am EST</p>
                   </div>
 
-                <div class="info-container">
-
-                  <h4 class="event-title">BPT MASTERMIND RETREAT</h4>
-                  <p class="tutorial-date mb-4 mt-2">FALL 2021</p>
-                </div>
-
-                <div class="link-container">
-                  <a href="https://us02web.zoom.us/webinar/register/WN_LLHJyyCeRaiBXQF_uqruoA" class="btn btn-accent"
-                  target="_blank">Learn More</a>
-                </div>
+                  <div class="link-container">
+                    <a href="https://secure.bigpicturetrading.com/membership/content/p/id/345/" class="btn btn-accent"
+                    target="_blank">REGISTER</a>
+                  </div>
                 </li>
-                <li class="">
+                <!-- <li class="">
                   <div class="icon-container">
                     <i class="fas fa-sunglasses"></i>
                   </div>
-
                   <div class="info-container">
-           
-                  <h4 class="event-title">TOO COOL FOR SCHOOL WEBINAR </h4>
-                  <p class="tutorial-date mb-4 mt-2">Wed. Dec. 12, 2021 | 11AM EST</p>
+                    <h4 class="event-title">TOO COOL FOR SCHOOL WEBINAR </h4>
+                    <p class="tutorial-date mb-4 mt-2">Wed. Dec. 12, 2021 | 11AM EST</p>
                   </div>
                   <div class="link-container">
                     <a href="https://us02web.zoom.us/webinar/register/WN_LLHJyyCeRaiBXQF_uqruoA" class="btn   btn-accent"
                     target="_blank">Early Bird</a>
                   </div>
-
-                </li>
+                </li> -->
                 <!-- <p class="w-full mt-8 tiny text-center text-lg text-gray-500 italic"><i
                     class="fas fa-exclamation-triangle mr-1"></i> Please note that the schedule is subject to change.</p> -->
               </ul>
         </section>
         
         <!-- UPCOMING EVENTS END -->  
-         <!-- TOOLS START -->   
+          <!-- TOOLS START -->  
+          <!--
          <section id="tools" class="tools-container flex flex-row flex-wrap">
           <h2 class="section-title"><i class="fas fa-tools mr-3"></i>TOOLS</h2>
           <ul class="tile-list">
@@ -603,21 +654,37 @@
             </li>
           </ul>
         </section>
-        
-        <!-- TOOLS END -->
+        -->
+        <!-- TOOLS END --> 
 
         <div class="resources-layout">
-          <section id="resources" class="resources-container">
-            <h2 class="section-title"><i class="fas fa-books mr-3"></i>RESOURCES</h2>
+          
+          <section  class="resources-container">
+            <h2 class="section-title"><i class="fas fa-tools mr-3" id="tools"></i>TOOLS</h2>
+            <ul class="tile-list">
+              <li class="">
+                <a href=""><i class="fas fa-calculator mr-3"></i>Options Trading Simulator</a>
+              </li>
+              <li class="">
+                <a href="https://bigpicturetrading.com/wp-content/uploads/2020/05/TrackingtheCalendarPutWrite.xlsx"><i class="fas fa-file-spreadsheet mr-3"></i>Put Write Calendar Spreadsheet</a>
+              </li>
+              <li class="">
+                <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/portfolio_strategies/calculators/calc1.html"><i class="fas fa-calculator mr-3"></i>Covered Call Calculator</a>
+              </li>
+              <li class="">
+                <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/portfolio_strategies/calculators/calc2.html"><i class="fas fa-calculator mr-3"></i>Naked Put Calculator</a>
+              </li>
+            </ul>
+            <h2 class="section-title"><i class="fas fa-books mr-3" id="resources"></i>RESOURCES</h2>
               <ul class="tile-list">
                 <li class="">
                   <a class="bonus-content" href=""><i class="fas fa-plus-hexagon mr-3"></i>Members Bonus Content</a>
                 </li>
                 <li class="">
-                  <a href=""><i class="fas fa-th-large mr-3"></i>MacroVoices Podcast</a>
+                  <a href=""><i class="fas fa-th-large mr-3"></i>MacroVoices</a>
                 </li>
                 <li class="">
-                  <a href=""><i class="fas fa-beer mr-3"></i>Market Huddle Podcast</a>
+                  <a href=""><i class="fas fa-beer mr-3"></i>Market Huddle</a>
                 </li>
     
               </ul>
@@ -627,7 +694,7 @@
             <!-- TWITTER START -->   
             <section class="twitter twitter-container" id="twitter">
               <h2><i class="fab fa-twitter mr-3"></i>TWITTER FEED</h2>
-              <div class=""><a class="twitter-timeline" data-height="600" href="https://twitter.com/BpTfeed?ref_src=twsrc%5Etfw">Tweets by bigpictrading</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <div class=""><a class="twitter-timeline" data-height="735" href="https://twitter.com/BpTfeed?ref_src=twsrc%5Etfw">Tweets by bigpictrading</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               </div>
             </section>
             <!-- TWITTER END -->
@@ -641,13 +708,14 @@
 <!-- FOOTER START-->  
     <div class="footer-container">
       <footer class="footer" id="footer">
-        <div class="footer-left">
-        </div>
-        <div class="footer-right">
-          <a href="http://www.bigpicturetrading.com" target="_blank" alt="link to public site" title="link to public site"><img src="./app/images/logo-1.png" alt="big picture trading logo"></a>
+          <div>
+            <a href="http://www.bigpicturetrading.com" target="_blank" alt="link to public site" title="link to public site">
+              <img src="./app/images/logo-1.png" alt="big picture trading logo">
+            </a>
+          </div>
           <div>
             <p class="feedback-link">
-              <a href="mailto:info@bigpicturetrading.com"></br>Got feedback? <i class="fas fa-comment ml-2"></i></a>
+              <a href="https://us17.list-manage.com/survey?u=a96e0a756d697293909363a30&id=b7aff6c3d8" target="_blank">Got feedback? <i class="fas fa-comment ml-2"></i></a>
             </p>
           </div>
           <div class="contact-links">
@@ -665,64 +733,12 @@
           </div>
           <p class="subtle copyright mt-8">
             All content &copy; 2017-
-            <script>document.write(new Date().getFullYear())</script> Big Picture Trading, Inc.
+            <script>document.write(new Date().getFullYear())</script> Big Picture Trading, Inc.</script>
           </p>
-        </div>
-        
-
       </footer>
     </div>
 <!-- FOOTER END-->  
-
-
-
-    <script>
-
-      const localDate = new Date();
-
-      // const currentHoursUTC = currentDate.getUTCHours();
-      // const localHoursUTC = 13;
-      const localMinutesUTC = localDate.getUTCMinutes();
-      
-      const localTimeHours = localDate.getHours();
-      const localTimeMinutes = localDate.getMinutes();
-      const localTimeSeconds = localDate.getSeconds();
-      const year = localDate.getFullYear() // 2019
-      const date = localDate.getDate() // 23
-      const month = localDate.getMonth() // 2019
-      const day = localDate.getDay() // 23
-      const what = new Intl.DateTimeFormat(localDate).format(date);
-      const months = [
-        'January',
-        'February',
-        'March',
-        'April',
-        'May',
-        'June',
-        'July',
-        'August',
-        'September',
-        'October',
-        'November',
-        'December'
-      ]
-
-      console.log(localDate, localTimeHours);
-      const showJoin = false;
-      // GET TIME OF DAY IN UTC
-
-
-      // 9AM EST is 13 UTC, 10AM EST is 14UTC
-
-      // IF CURRENT UTC TIME IS BETWEEN THE OTHER TIMES, MAKE SHOWJOIN TRUE
-      // if ( currentHoursUTC >= 13 && currentHoursUTC <=14 ) {
-      //   console.log("It is in the window! Show JOIN!");
-      // } else {
-      //   console.log("Nope, it's not the time to join.");
-      // }
-
-      console.log('showJoin:',showJoin);
-    </script>
+  
     
   </body>
 </html>

@@ -2,6 +2,8 @@
     margin: 0;
     ul {
         width: 100%;
+        padding-right: 10px;
+        // padding-left: 10px;
         li {
             width: 100%;
             display: flex;
@@ -14,6 +16,7 @@
             padding: 10px 15px;
             box-shadow: var(--shadow-sm);
             background-color: var(--accent-blue-light);
+
             h4 {
                 color: var(--accent-blue);
                 font-size: 1.1em;
@@ -29,7 +32,8 @@
                 // border:1px solid red;
             }
             div.link-container {
-
+                flex: 1 0 200px;
+                text-align: right;
             }
             i {
                 color: var(--accent-blue-medium);
