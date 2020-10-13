@@ -32,19 +32,37 @@
                 font-size: 0.8em;
                 margin-top: 10px;
             }
-            &:after{
-                content: 'updated';
+            &:before{
                 display: inline-block;
-                background-color: var(--accent-gold);
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 font-size: 0.6em;
                 padding: 5px 10px;
                 border-radius: 8px;
-                color: white;
                 position: absolute;
                 top: 20px;right: 20px;
-                }
+                padding-right: 8px;
+            }
+            &.new:before{
+                content: 'new';
+                background-color: var(--accent-gold);
+                color: white;
+            }
+            &.updated:before{
+                content: 'updated';
+                background-color: var(--accent-blue);
+                color: white;
+            }
+            &.on-sale:before{
+                content: 'on sale';
+                background-color: var(--accent-red);
+                color: white;
+            }
+            &.early-access:before{
+                content: 'early access';
+                background-color: var(--brand-secondary);
+                color: white;
+            }
         }
     }
     .master-intro {
@@ -65,5 +83,35 @@
             }
         }
     }
+    
 
+}
+.master-cta {
+    padding-right: 10px;
+}
+.bundle-cta {
+    background-color: var(--accent-red);
+    padding: 20px;
+    color:white;
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: lighter;
+    opacity:0.9;
+    span {
+        font-size: 1.4em;
+        font-weight: bolder;
+    }
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+        opacity:1;
+
+            i {
+                color: var(--accent-gold);
+            }
+    }
 }
