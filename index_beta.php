@@ -273,10 +273,10 @@ include("header_beta.php");
               <p class="posted-time mb-8">Posted Monday-Friday ~9AM EST</p>
               <div class="outlook-video">
                 <!-- UPDATE: MACRO OUTLOOK VIMEO VIDEO ID -->
-                <iframe src="https://player.vimeo.com/video/458548112" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                <iframe src="https://player.vimeo.com/video/475060301" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
                 <div class="outlook-links">
                   <!-- UPDATE: YESTERDAY'S MACRO OUTLOOK VIMEO PAGE LINK OR HOSTED VIMEO VIDEO PAGE -->
-                  <a href="https://secure.bigpicturetrading.com/membership/content/p/id/312/" target="_blank" class="w-1/3 text-left underline mt-4 inline-block italic"><i class="fal fa-angle-double-left"></i> Previous Video</a>
+                  <a href="https://secure.bigpicturetrading.com/membership/content/p/id/381/" target="_blank" class="w-1/3 text-left underline mt-4 inline-block italic"><i class="fal fa-angle-double-left"></i> Previous Video</a>
                   <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/recording_archives.php" target="_blank" class="text-right underline mt-4 inline-block italic">Go to Archive...</a>
                 </div>
               </div>
@@ -289,17 +289,17 @@ include("header_beta.php");
               </div>
 
               <div class="witt-video mb-12 hidden">
-                <iframe src="https://player.vimeo.com/video/458603820" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                <iframe src="https://player.vimeo.com/video/474109011" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
               </div>
               <div class="witt-join mb-12">
                 <!-- UPDATE: WITT WHERE IS THE TRADE LINKS AND ALSO THE VISIBILITY STATUS -->
                 <!-- TODO: AUTOMATE THE BUTTON VISIBILITY -->
-                <a class="join-now-button" target="_blank" href="https://us02web.zoom.us/webinar/register/WN_zAgAMFT_QWi1h90BNXmL_Q"><button class="btn btn-bold mt-8 shadow">JOIN NOW</button></a>
+                <a class="join-now-button" target="_blank" href="https://us02web.zoom.us/webinar/register/WN_6Zy8H1w4SKambgV5fGk2aQ"><button class="btn btn-bold mt-8 shadow">JOIN NOW</button></a>
                 <a class="watch-witt-button hidden" target="_blank" href=""><button class="btn btn-accent mt-8 shadow"><i class="fas fa-video"></i>WATCH</button></a>
               </div>
               <div class="witt-register mb-8">
                 <!-- UPDATE: WITT WHERE IS THE TRADE REGISTRATION LINK -->
-                <a class="witt-registration-link" target="_blank" href="https://us02web.zoom.us/webinar/register/WN_zAgAMFT_QWi1h90BNXmL_Q"><button class="btn btn-small btn-subtle btn-outline"><i class="fas fa-calendar-alt mr-3"></i>REGISTER</button></a>
+                <a class="witt-registration-link" target="_blank" href="https://us02web.zoom.us/webinar/register/WN_6Zy8H1w4SKambgV5fGk2aQ"><button class="btn btn-small btn-subtle btn-outline"><i class="fas fa-calendar-alt mr-3"></i>REGISTER</button></a>
               </div>
               <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/recording_archives.php" target="_blank" class="text-center underline mt-4 inline-block italic">Go to Archive...</a>
             </div>
@@ -315,18 +315,18 @@ include("header_beta.php");
             <h3 class="mb-2"><span class="trade-pill bot">bot</span> BreakOut Trades</h3>            <hr>
             <ul class="trade-list">
               <li>
-                <h5 class="trade-meta"><span class="date">09/10/20</span><span class="ticker">SBUX</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-27</span><span class="ticker">PFE</span></h5>
+                <p>Looking for the start of a new bull breakout</p>
                 <hr>
               </li>
               <li>
-                <h5 class="trade-meta"><span class="date">09/10/20</span><span class="ticker">SBUX</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-27</span><span class="ticker">ACN</span></h5>
+                <p>Looking for the earnings disappoint to lead to more distribution</p>
                 <hr>
               </li>
               <li>
-                <h5 class="trade-meta"><span class="date">09/10/20</span><span class="ticker">SBUX</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-20</span><span class="ticker">BAC</span></h5>
+                <p>Looking for the earnings disappoint to lead to more weakness</p>
                 <hr>
               </li>
             </ul>
@@ -336,18 +336,18 @@ include("header_beta.php");
             <h3 class="tb-2"><span class="trade-pill heg dra">HEG</span> Hedged Positions</h3>            <hr>
             <ul class="trade-list">
               <li>
-                <h5 class="trade-meta"><span class="date">09/10/20</span><span class="ticker">SBUX</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-14</span><span class="ticker">GLD</span></h5>
+                <p>We are adjusting the collar on the GLD.</p>
                 <hr>
               </li>
               <li>
-                <h5 class="trade-meta"><span class="date">09/10/20</span><span class="ticker">SBUX</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-09-18</span><span class="ticker">GLD</span></h5>
+                <p>We are adjusting the collar on the GLD.</p>
                 <hr>
               </li>
               <li>
-                <h5 class="trade-meta"><span class="date">09/10/20</span><span class="ticker">SBUX</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-08-11</span><span class="ticker">GLD</span></h5>
+                <p>We are implementing the GLD September collar.</p>
                 <hr>
               </li>
             </ul>
@@ -357,18 +357,18 @@ include("header_beta.php");
             <h3 class="tb-2"><span class="trade-pill heg lto">LTO</span> Long Term Options</h3>            <hr>
             <ul class="trade-list">
               <li>
-                <h5 class="trade-meta"><span class="date">09/10/20</span><span class="ticker">SBUX</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-30</span><span class="ticker">SPY</span></h5>
+                <p>We are taking profits on the SPY put debit spread.</p>
                 <hr>
               </li>
               <li>
-                <h5 class="trade-meta"><span class="date">09/10/20</span><span class="ticker">SBUX</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-30</span><span class="ticker">TSLA</span></h5>
+                <p>The TSLA put backspread has to be closed.</p>
                 <hr>
               </li>
               <li>
-                <h5 class="trade-meta"><span class="date">09/10/20</span><span class="ticker">SBUX</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-30</span><span class="ticker">AAPL</span></h5>
+                <p>The AAPL put backspread has to be closed.</p>
                 <hr>
               </li>
             </ul>
@@ -378,18 +378,18 @@ include("header_beta.php");
             <h3 class="mb-2"><span class="trade-pill heg ofi">OFI</span> Options for Income</h3>            <hr>
             <ul class="trade-list">
               <li>
-                <h5 class="trade-meta"><span class="ticker">SBUX</span><span class="date">09/10/20</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-21</span><span class="ticker">CCJ</span></h5>
+                <p>We are opening a new position on Cameco.</p>
                 <hr>
               </li>
               <li>
-                <h5 class="trade-meta"><span class="ticker">SBUX</span><span class="date">09/10/20</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-21</span><span class="ticker">GOLD</span></h5>
+                <p>We are opening a put write on Barrick Gold.</p>
                 <hr>
               </li>
               <li>
-                <h5 class="trade-meta"><span class="ticker">SBUX</span><span class="date">09/10/20</span></h5>
-                <p>What happened in the trade</p>
+                <h5 class="trade-meta"><span class="date">2020-10-21</span><span class="ticker">SLV</span></h5>
+                <p>With the potential breakout, we want to reach for an aggressive premium grab.</p>
                 <hr>
               </li>
             </ul>
@@ -461,7 +461,7 @@ include("header_beta.php");
                   </div>
                   <div class="info-container">
                     <h4 class="event-title">EXCLUSIVE Master Members LIVE Q&A</h4>
-                    <p class="tutorial-date mb-4 mt-2">Friday, October 09, 2020 at 9:45am EST</p>
+                    <p class="tutorial-date mb-4 mt-2">Friday, November 06, 2020 at 9:45am EST</p>
                   </div>
 
                   <div class="link-container">
@@ -519,13 +519,13 @@ include("header_beta.php");
               <h2 class="section-title"><i class="fas fa-books mr-3" ></i>RESOURCES</h2>
               <ul class="tile-list">
                 <li class="">
-                  <a class="bonus-content" href=""><i class="fas fa-plus-hexagon mr-3"></i>Members Bonus Content</a>
+                  <a class="bonus-content" href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/memberseducation.php"  target="_blank"><i class="fas fa-plus-hexagon mr-3"></i>Members Bonus Content</a>
                 </li>
                 <li class="">
-                  <a href=""><i class="fas fa-th-large mr-3"></i>MacroVoices</a>
+                  <a href="http://macrovoices.com" target="_blank"><i class="fas fa-th-large mr-3"></i>MacroVoices</a>
                 </li>
                 <li class="">
-                  <a href=""><i class="fas fa-beer mr-3"></i>Market Huddle</a>
+                  <a href="http://markethuddle.com" target="_blank"><i class="fas fa-beer mr-3"></i>Market Huddle</a>
                 </li>
               </ul>
             </div>
@@ -533,7 +533,7 @@ include("header_beta.php");
               <h2 class="section-title"><i class="fas fa-tools mr-3" ></i>TOOLS</h2>
               <ul class="tile-list">
                 <li class="">
-                  <a href=""><i class="fas fa-calculator mr-3"></i>Options Trading Simulator</a>
+                  <a href="https://secure.bigpicturetrading.com/option.simulator/position_simulator.php"><i class="fas fa-calculator mr-3"></i>Options Trading Simulator</a>
                 </li>
                 <li class="">
                   <a href="https://bigpicturetrading.com/wp-content/uploads/2020/05/TrackingtheCalendarPutWrite.xlsx"><i class="fas fa-file-spreadsheet mr-3"></i>Put Write Calendar Spreadsheet</a>
