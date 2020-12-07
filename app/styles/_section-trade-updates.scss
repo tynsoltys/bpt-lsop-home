@@ -2,8 +2,10 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+
     div {
-        flex: 1 0 300px;
+        flex: 1 0 50%;
+        max-width: calc(50% - 15px);
         margin-right: 10px;
         margin-bottom: 20px;
         background-color: #fff;
@@ -11,10 +13,10 @@
         // box-shadow: var(--shadow);
         box-shadow: var(--shadow-sm);
         border-radius: 8px;
-        flex: 1 0 auto;
+        border:hotpink;
     }
     h3 {
-        line-height: 1rem;
+        // line-height: 1.5rem;
         // padding-top: 2px;
         margin-bottom: 20px;
     }
@@ -32,15 +34,26 @@
     p {
         display: inline-block;
         font-size: 0.9em;
+        text-overflow: ellipsis;
     }
     .trade-list {
         font-size: 1em;
         li {
             padding-bottom: 4px;
             margin-bottom: 4px;
+            display: flex;
+            flex-flow: row wrap;
+            h5 {
+            width: 40%;
+            }
             p{
+                width: 60%;
+                flex: 0 1 auto;
                 padding: 4px;
                 line-height: 1.2em;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+overflow: hidden;
 
             }
         }

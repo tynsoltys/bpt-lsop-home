@@ -57,15 +57,16 @@ aside {
   display: flex;
   align-items: center;
   h4 {
-    color: var(--brand-primary-medium);
+    color: var(--brand-primary);
   }
   // color: var(--brand-secondary-toned) !important;
   &:hover {
-    color: var(--brand-primary);
+    color: var(--brand-primary-medium);
     // color: var(--brand-secondary-toned);
     transform: scale(1.02);
     .side-link-icon {
       background-color: var(--brand-primary);
+      opacity:1;
     }
     h4 {
       color: var(--brand-primary);
@@ -82,7 +83,7 @@ aside {
 
 
 .side-link-icon {
-  background-color: var(--brand-primary-medium);
+  background-color: var(--brand-primary);
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -91,6 +92,7 @@ aside {
   text-align: center;
   box-shadow: var(--shadow);
   transition: all 0.3s;
+
 }
 
 .side-link-icon i {
@@ -119,6 +121,7 @@ aside {
       .side-link-icon {
         margin-right: 0;
         margin-left: 15px;
+        opacity: 1;
       }
       li {padding: 0;}
 
