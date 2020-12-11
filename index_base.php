@@ -287,10 +287,10 @@ include("header_beta.php");
               <p class="posted-time mb-8">Posted Monday-Friday ~9AM EST</p>
               <div class="outlook-video">
                 <!-- UPDATE: MACRO OUTLOOK VIMEO VIDEO ID -->
-                <iframe src="https://player.vimeo.com/video/488089538" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                <iframe src="https://player.vimeo.com/video/488934749" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
                 <div class="outlook-links">
                   <!-- UPDATE: YESTERDAY'S MACRO OUTLOOK VIMEO PAGE LINK OR HOSTED VIMEO VIDEO PAGE -->
-                  <a href="https://secure.bigpicturetrading.com/membership/content/p/id/430/" target="_blank" class="w-1/3 text-left underline mt-4 inline-block italic"><i class="fal fa-angle-double-left"></i> Previous Video</a>
+                  <a href="https://secure.bigpicturetrading.com/membership/content/p/id/434/" target="_blank" class="w-1/3 text-left underline mt-4 inline-block italic"><i class="fal fa-angle-double-left"></i> Previous Video</a>
                   <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/recording_archives.php" target="_blank" class="text-right underline mt-4 inline-block italic">Go to Archive...</a>
                 </div>
               </div>
@@ -309,7 +309,7 @@ include("header_beta.php");
                 <!-- UPDATE: WITT WHERE IS THE TRADE LINKS AND ALSO THE VISIBILITY STATUS -->
                 <!-- TODO: AUTOMATE THE BUTTON VISIBILITY -->
                 <a class="join-now-button hidden" target="_blank" href="https://us02web.zoom.us/webinar/register/WN_ETXz-Y-9RmWxK-oJFl4ygg"><button class="btn btn-bold mt-8 shadow">JOIN NOW</button></a>
-                <a class="watch-witt-button " target="_blank" href="https://secure.bigpicturetrading.com/membership/content/p/id/432/"><button class="btn btn-accent mt-8 shadow"><i class="fas fa-video"></i>WATCH</button></a>
+                <a class="watch-witt-button " target="_blank" href="https://secure.bigpicturetrading.com/membership/content/p/id/437/"><button class="btn btn-accent mt-8 shadow"><i class="fas fa-video"></i>WATCH</button></a>
               </div>
               <div class="witt-register mb-8">
                 <!-- UPDATE: WITT WHERE IS THE TRADE REGISTRATION LINK -->
@@ -329,18 +329,18 @@ include("header_beta.php");
             <h3 class="mb-2"><span class="trade-pill bot">bot</span> BreakOut Trades</h3>            <hr>
             <ul class="trade-list">
             <li>
+                <h5 class="trade-meta"><span class="date">2020-12-08</span><span class="ticker">IBM</span></h5>
+                <p>Bearish on IBM</p>
+                <hr>
+              </li>
+            <li>
+                <h5 class="trade-meta"><span class="date">2020-12-08</span><span class="ticker">GOLD</span></h5>
+                <p>Bullish on Barrick</p>
+                <hr>
+              </li>
+            <li>
                 <h5 class="trade-meta"><span class="date">2020-12-01</span><span class="ticker">JNJ</span></h5>
                 <p>Bullish on Johnson & Johnson</p>
-                <hr>
-              </li>
-            <li>
-                <h5 class="trade-meta"><span class="date">2020-12-01</span><span class="ticker">WPM</span></h5>
-                <p>Bullish on Wheaton Precious Metals</p>
-                <hr>
-              </li>
-            <li>
-                <h5 class="trade-meta"><span class="date">2020-11-25</span><span class="ticker">CCJ</span></h5>
-                <p>Bullish on Cameco/p>
                 <hr>
               </li>
             </ul>
@@ -371,6 +371,11 @@ include("header_beta.php");
             <h3 class="tb-2"><span class="trade-pill heg lto">LTO</span> Long Term Options</h3>            <hr>
             <ul class="trade-list">
             <li>
+                <h5 class="trade-meta"><span class="date">2020-12-08</span><span class="ticker">SPY</span></h5>
+                <p>Adjusting Trade on S&P500 ETF</p>
+                <hr>
+              </li>
+            <li>
                 <h5 class="trade-meta"><span class="date">2020-12-02</span><span class="ticker">SPY</span></h5>
                 <p>New Trade on S&P500 ETF</p>
                 <hr>
@@ -378,11 +383,6 @@ include("header_beta.php");
             <li>
                 <h5 class="trade-meta"><span class="date">2020-11-18</span><span class="ticker">TSLA</span></h5>
                 <p>New Trade on Tesla</p>
-                <hr>
-              </li>
-              <li>
-                <h5 class="trade-meta"><span class="date">2020-11-11</span><span class="ticker">AAPL</span></h5>
-                <p>New Trade on Apple</p>
                 <hr>
               </li>
             </ul>
@@ -501,7 +501,7 @@ include("header_beta.php");
                   <a href="https://secure.bigpicturetrading.com/option.simulator/position_simulator.php"><i class="fas fa-calculator mr-3"></i>Options Trading Simulator</a>
                 </li>
                 <li class="">
-                  <a href="https://bigpicturetrading.com/wp-content/uploads/2020/05/TrackingtheCalendarPutWrite.xlsx"><i class="fas fa-file-spreadsheet mr-3"></i>Put Write Calendar Spreadsheet</a>
+                  <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/members_home/TrackingtheCalendarPutWrite.xlsx"><i class="fas fa-file-spreadsheet mr-3"></i>Put Write Calendar Spreadsheet</a>
                 </li>
                 <li class="">
                   <a href="https://secure.bigpicturetrading.com/membership/bigpictureanalytics/portfolio_strategies/calculators/calc1.html"><i class="fas fa-calculator mr-3"></i>Covered Call Calculator</a>
@@ -531,7 +531,7 @@ include("header_beta.php");
       <div class="master-intro flex">
         <p class="w-3/5">In <strong>Big Picture Trading's</strong> flagship Master Programs, Patrick guides you from macro fundamentals to advanced options & trading strategies employed in his own trades.
           <!-- TODO: WHERE DOES THIS LINK UNTIL WE HAVE THE DISCOVERY CALL THING SET UP -->
-          <br/><a href="mailto:contact@bpigpicturetrading.com" class="mt-8 block btn btn-accent"><i class="fas fa-search-dollar mr-3"></i>book a discovery call</a>
+          <br/><a href="mailto:luke@bigpicturetrading.com?subject=I%20would%20like%20more%20information%20about%20the%20Master%20Programs%20&body=Please let me know if you have any other questions - Kindly send me your contact number along with a good time to reach you and I will call you, or you can reach out to me directly at 1-888-426-4668 ext 2.%0d%0d%20Your%20contact%20details:%0d%0dName:%20[Your%20Name]%0dPhone%20Number:[Your%20Number]%0dBest%20time%20to%20reach%20you:[Best%20Time]%0d%0dCheers!" class="mt-8 block btn btn-accent"><i class="fas fa-search-dollar mr-3"></i>book a discovery call</a>
         <div class="w-2/5 text-md"><img src="./app/images/undraw_active_options_8je6.svg" alt="man looking at screen"></div>
       </div>
     
@@ -564,8 +564,8 @@ include("header_beta.php");
         </li>
         
       </ul>
-      <div class="master-cta">
-        <a class="bundle-cta" href="mailto:contact@bigpicturetrading.com">
+      <div class="master-cta hidden">
+        <a class="bundle-cta" href="mailto:luke@bigpicturetrading.com?subject=I%20would%20like%20more%20information%20about%20the%20Master%20Programs%20&body=Please let me know if you have any other questions - Kindly send me your contact number along with a good time to reach you and I will call you, or you can reach out to me directly at 1-888-426-4668 ext 2.%0d%0d%20Your%20contact%20details:%0d%0dName:%20[Your%20Name]%0dPhone%20Number:[Your%20Number]%0dBest%20time%20to%20reach%20you:[Best%20Time]%0d%0dCheers!">
           <span>Want to learn Patrick’s approach? Join our master program!</span>
           <p class=""><i class="fas fa-sack-dollar mr-3 "></i>Make sure to contact us about our Membership Master Bundles & Discounts<i class="fas fa-sack-dollar ml-3 "></i></p>
         </a>

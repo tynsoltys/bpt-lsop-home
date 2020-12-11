@@ -1,0 +1,23 @@
+.whats-new-container {
+    border: 1px solid var(--accent-gold);
+    background-color: var(--accent-gold-fade);
+    h3 {}
+    a {
+        text-decoration: underline;
+        color: var(--brand-primary);
+    }
+    i {
+        color: var(--brand-primary);
+    }
+    .btn {
+ color: white;
+ text-decoration: none;
+ i {
+     color:white;
+ }
+    }
+}
+
+section.whats-new {
+ padding-bottom: 0px;
+}

@@ -29,7 +29,7 @@
     section.main-content {
       // width: 100%;
       margin-top: 40px;
-
+      padding-bottom: 40px;
       @media (max-width: 900px) {
         width: 100%;
         margin: 5px;
@@ -44,6 +44,7 @@
       justify-content: center;
       flex-flow: row wrap;
       max-width: 800px;
+      margin: 0 auto;
       @media (max-width: 900px) {
         max-width: 100%;
       }
@@ -100,6 +101,8 @@
       font-weight: 200;
       letter-spacing: 5px;
       border-bottom: 0;
+      text-align: center;
+      display: block;
     }
     a.btn {
       // width: 300px;
@@ -135,6 +138,7 @@
       }
     }
     input#mc-embedded-subscribe {
+      padding-top: 0px;
       @media (max-width: 800px) {
         width: calc(90%);
       }
@@ -183,4 +187,8 @@
       margin-bottom: 20px;
     }
   }
+}
+
+.denied-footer {
+  color: var(--brand-primary);
 }
