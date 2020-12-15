@@ -4,17 +4,20 @@
     justify-content: space-between;
 
     div {
-        flex: 1 0 50%;
-        max-width: calc(50% - 15px);
-        margin-right: 10px;
+        flex: 1 0 100%;
         margin-bottom: 20px;
         background-color: #fff;
         padding: 25px;
         // box-shadow: var(--shadow);
         box-shadow: var(--shadow-sm);
         border-radius: 8px;
-        border:hotpink;
+        @media(min-width: 700px) {
+            flex: 1 0 50%;
+            max-width: calc(50% - 15px);
+        }
     }
+    
+    
     h3 {
         // line-height: 1.5rem;
         // padding-top: 2px;
@@ -23,38 +26,47 @@
     .trade-meta {
     display: inline-block;
         margin: 4px 0px;
-        line-height: 1.2em;
+        line-height: 1.5em;
         .date {
             color: rgba(black,0.6);
             font-size: 0.8em;
             margin-left: 5px;
             margin-right: 10px;
+            @media(min-width: 700px) {
+                flex: 1 0 50%;
+                max-width: calc(50% - 15px);
+            }
         }
     }
     p {
         display: inline-block;
         font-size: 0.9em;
         text-overflow: ellipsis;
+
     }
     .trade-list {
         font-size: 1em;
         li {
-            padding-bottom: 4px;
-            margin-bottom: 4px;
             display: flex;
             flex-flow: row wrap;
             h5 {
             width: 40%;
+                @media(max-width: 480px) {
+                    width: 100%;
+                }
             }
             p{
                 width: 60%;
                 flex: 0 1 auto;
                 padding: 4px;
-                line-height: 1.2em;
+                line-height: 1.5em;
+                padding-top: 6px;
                 text-overflow: ellipsis;
                 white-space: nowrap;
-overflow: hidden;
-
+                overflow: hidden;
+                @media(max-width: 480px) {
+                    width: 100%;
+                }
             }
         }
     }

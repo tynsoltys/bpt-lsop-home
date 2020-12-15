@@ -14,6 +14,7 @@ section {
   scroll-padding: 95px;
   -webkit-scroll-margin-top: 95px;
   scroll-snap-margin-top: 162px;
+  border:1px solid red;
   @media (max-width: $bp-xl) {
     margin: calc(1 * var(--space));
     padding: calc(2 * var(--space));

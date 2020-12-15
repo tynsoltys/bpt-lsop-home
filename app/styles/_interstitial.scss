@@ -2,6 +2,7 @@
 
 .interstitial {
   font-size: 15px;
+  padding-top:60px;
   header {
     background-color: var(--background-main);
     // box-shadow: var(--shadow);
@@ -129,19 +130,43 @@
       clear: left;
       font: 14px Helvetica, Arial, sans-serif;
       width: 100%;
-    }
-    input.email-field {
-      width: calc(90% - 150px);
-      @media (max-width: 800px) {
-        margin-bottom: 10px;
-        width: calc(90%);
+      text-align: center;
+      form {
+        padding: 0;
       }
+      form >div{
+        max-width:400px;
+ margin: auto;
+ margin-top: 10px;
+
+        display: flex;
+        flex-flow: column wrap;
+        input {
+          width: 100%;
+          flex: 1 0 auto;
+        }
+      }
+    }
+    .mc-field-group {
+      width: 100% !important;
+    }
+
+    input#mce-PHONE, input#mce-EMAIL {
+      width: 100% !important;
     }
     input#mc-embedded-subscribe {
-      padding-top: 0px;
+      margin: 0;
+      padding: 10px 15px;
+      border:none;
+      margin-top: 10px;
+      display: inline-block;
       @media (max-width: 800px) {
         width: calc(90%);
       }
+
+    }
+    #mc_embed_signup .size1of2 {
+      margin-right: 0;
     }
     .course-details {
       max-width: 80%;
@@ -184,7 +209,7 @@
       font-weight: 400;
     }
     h5 {
-      margin-bottom: 20px;
+    
     }
   }
 }
